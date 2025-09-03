@@ -1,6 +1,6 @@
 
 # el * ayuda a iterar los argumenos permitiendo agregar n
-# cantidad de argumentos
+# cantidad de argumentos y convertirlos en iterables
 def suma(*numeros):
     resultado = 0
     for numero in numeros:
