@@ -1,0 +1,27 @@
+
+def sin_espacios(palabra):
+    nueva_palabra = ""
+    for letra in palabra:
+        if letra != " ":
+            nueva_palabra += letra
+    return nueva_palabra
+
+
+def palabra_alreves(palabra):
+    nueva_palabra = ""
+    for letra in range(len(palabra) - 1, -1, -1):
+        nueva_palabra += palabra[letra]
+    return nueva_palabra
+
+
+def es_palindromo(palabra):
+    palabra_palindroma = ""
+    palabra_palindroma = sin_espacios(palabra)
+    palabra_palindroma = palabra_alreves(palabra)
+    if palabra_palindroma == palabra:
+        return True
+    else:
+        return False
+
+
+print(es_palindromo("Gato"))
