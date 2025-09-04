@@ -18,10 +18,11 @@ def es_palindromo(palabra):
     palabra_palindroma = ""
     palabra_palindroma = sin_espacios(palabra)
     palabra_palindroma = palabra_alreves(palabra)
-    if palabra_palindroma == palabra:
+    if palabra_palindroma.lower() == palabra.lower():
         return True
     else:
         return False
 
 
 print(es_palindromo("Gato"))
+print(es_palindromo("Oso"))
