@@ -1,4 +1,5 @@
-mascotas = ["Pelusa", "Pulga", "Felipe", "Kira", "Wolfgang", "PEPE", "Scooby"]
+mascotas = ["Pelusa", "Pulga", "Felipe",
+            "Kira", "Wolfgang", "PEPE", "Scooby"]
 
 
 # Verificar si existe un elemento en el arreglo
