@@ -3,15 +3,13 @@ class Perro:
     def __init__(self, nombre):
         self.nombre = nombre
 
-    def habla(self):
-        print("Guau!")
+    def presenta(self):
+        print(f"El perro se llama {self.nombre}!")
 
 
 mi_perro = Perro("Scooby")
 mi_perro2 = Perro("Felipe")
-print(mi_perro.nombre)
-print(mi_perro2.nombre)
-print(type(mi_perro))
 
-mi_perro.habla()
-print(isinstance(mi_perro, Perro))
+
+mi_perro.presenta()
+mi_perro2.presenta()
